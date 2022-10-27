@@ -11,6 +11,7 @@ async function getFetch() {
   const response = await fetch("http://localhost:3000/posts");
   let res = await response.json();
   console.log(res);
+  showPost(res);
 }
 
 getFetch();
@@ -18,9 +19,9 @@ getFetch();
 async function postFetch() {
   let data = {
     firstname: fName.value,
-    lastnme: lName.value,
+    lastname: lName.value,
     age: age.value,
-    email: emailInp.value
+    email: emailInp.value,
   };
   const response = await fetch("http://localhost:3000/posts", {
     method: "POST",
@@ -40,24 +41,25 @@ addBtn.addEventListener("click", (event) => {
 });
 
 const showPost = (posts) => {
-  let ekleme = "<tr>";
   posts.forEach((element) => {
+    let ekleme = "<tr>";
     ekleme +=
       "<td>" +
-      firstname +
+      element.firstname +
       "</td>" +
       "<td>" +
-      lastname +
+      element.lastname +
       "</td>" +
       "<td>" +
-      age +
+      element.age +
       "</td>" +
       "<td>" +
-      email +
-      "</td>";
+      element.email +
+      "<td>"+
+      "<button class='editBtn'>"+'Edit'+"</button>" + 
+      "<button class='delBtn'>"+'Delete'+"</button>" ;
+    ekleme += "</tr>";
+    tab.innerHTML += ekleme;
   });
   console.log(posts);
-  ekleme += "</tr>";
-//   tab.appendChild(tr);
-  tab.innerHTML = ekleme;
 };
