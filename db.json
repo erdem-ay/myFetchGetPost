@@ -1,0 +1,72 @@
+{
+  "posts": [
+    {
+      "firstname": "Erdem",
+      "lastname": "AY",
+      "age": "27",
+      "email": "eay@gmail.com"
+    },
+    {
+      "firstname": "erdem",
+      "lastname": "ay",
+      "age": "12",
+      "email": "12@gmail.com",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "firstname": "erdem",
+      "lastnme": "ay",
+      "age": "2",
+      "email": "eirdemmoon@gmail.com",
+      "id": 11
+    },
+    {
+      "firstname": "erdem",
+      "lastnme": "ay",
+      "age": "3",
+      "email": "eirdemmoon@gmail.com",
+      "id": 12
+    },
+    {
+      "firstname": "erdem",
+      "lastnme": "ay",
+      "age": "2",
+      "email": "eirdemmoon@gmail.com",
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
