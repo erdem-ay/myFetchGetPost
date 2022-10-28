@@ -1,41 +1,14 @@
 {
   "posts": [
     {
-      "firstname": "erdem",
-      "lastname": "ay",
-      "age": "3",
-      "email": "eirdemmoon@gmail.com",
-      "id": 1
-    },
-    {
-      "firstname": "erdem",
-      "lastname": "ay",
-      "age": "2",
-      "email": "eirdemmoon@gmail.com",
-      "id": 2
-    },
-    {
-      "firstname": "ismak",
-      "lastname": "ay",
-      "age": "10",
-      "email": "12@gmail.com",
-      "id": 3
-    },
-    {
-      "firstname": "yusuf ",
-      "lastname": "ay",
-      "age": "21",
+      "firstname": "ysuuf",
+      "lastname": "Aydın",
+      "age": "5",
       "email": "yusufay1157@gmail.com",
-      "id": 4
+      "id": 5
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }

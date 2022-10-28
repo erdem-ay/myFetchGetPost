@@ -12,9 +12,10 @@
 <form>
     <input type="text" id="name" class="fname" placeholder="First Name" required>
     <input type="text" id="surname" class="lname" placeholder="Last Name" required>
-    <input type="number" id="age" class="age" placeholder="Age" required>
+    <input type="number" id="age" class="age" min="1" max="100"  placeholder="Age" required>
     <input type="email" id="email" class="email" placeholder="E-mail" required>
     <button type="submit" class="button">ADD</button>
+    <button type="submit" class="buttonUpdate" style="display: none;">UPDATE</button>
 </form>
 <table class="tab">
     <tr>
@@ -23,12 +24,6 @@
       <th>Age</th>
       <th>E-mail</th>
     </tr>
-    <!-- <tr>
-        <td>Cleveland</td>
-        <td>Brown</td>
-        <td>24</td>
-        <td>cb@gmail.com</td>
-      </tr> -->
     </table>
 
 
